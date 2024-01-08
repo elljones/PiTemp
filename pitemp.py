@@ -40,7 +40,7 @@ def connect_to_redis(host='pi', port=6379, password=None, db=0):
 
         # Test the connection by sending a PING command
         if connection.ping():
-            print(f"Connected to Redis server at {host}:{port}")
+            #∏print(f"Connected to Redis server at {host}:{port}")
             return connection
         else:
             print("Failed to connect to Redis server. Check your connection parameters.")
